@@ -1,0 +1,2 @@
+C:\Users\ericz\Desktop\SortingVisualizer\Debug\SortingVisualizer.exe
+C:\Users\ericz\Desktop\SortingVisualizer\Debug\SortingVisualizer.pdb

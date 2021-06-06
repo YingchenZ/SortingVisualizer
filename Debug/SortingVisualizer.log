@@ -1,4 +1,15 @@
-﻿  HeapSort.cpp
+﻿  BinaryInsertion.cpp
+C:\Users\ericz\Desktop\SortingVisualizer\BinaryInsertion.cpp(62,21): warning C4018: '<': signed/unsigned mismatch
+  BubbleSort.cpp
+C:\Users\ericz\Desktop\SortingVisualizer\BubbleSort.cpp(46,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ericz\Desktop\SortingVisualizer\BubbleSort.cpp(47,22): warning C4018: '<': signed/unsigned mismatch
+  HeapSort.cpp
+  InsertionSort.cpp
+C:\Users\ericz\Desktop\SortingVisualizer\InsertionSort.cpp(45,21): warning C4018: '<': signed/unsigned mismatch
   MergeSort.cpp
+  QuickSort.cpp
+  SelectionSort.cpp
+C:\Users\ericz\Desktop\SortingVisualizer\SelectionSort.cpp(45,39): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ericz\Desktop\SortingVisualizer\SelectionSort.cpp(47,31): warning C4018: '<': signed/unsigned mismatch
   Generating Code...
   SortingVisualizer.vcxproj -> C:\Users\ericz\Desktop\SortingVisualizer\Debug\SortingVisualizer.exe

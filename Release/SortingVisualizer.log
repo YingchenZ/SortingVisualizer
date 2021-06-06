@@ -1,29 +1,31 @@
 ﻿  BinaryInsertion.cpp
-C:\Users\ericz\Desktop\SortingVisualizer\BinaryInsertion.cpp(57,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ericz\Desktop\SortingVisualizer\BinaryInsertion.cpp(62,21): warning C4018: '<': signed/unsigned mismatch
   HeapSort.cpp
   InsertionSort.cpp
-C:\Users\ericz\Desktop\SortingVisualizer\InsertionSort.cpp(40,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ericz\Desktop\SortingVisualizer\InsertionSort.cpp(45,21): warning C4018: '<': signed/unsigned mismatch
   main.cpp
 C:\Users\ericz\Desktop\SortingVisualizer\main.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\ericz\Desktop\SortingVisualizer\BubbleSort.cpp(41,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\ericz\Desktop\SortingVisualizer\BubbleSort.cpp(42,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ericz\Desktop\SortingVisualizer\BubbleSort.cpp(46,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ericz\Desktop\SortingVisualizer\BubbleSort.cpp(47,22): warning C4018: '<': signed/unsigned mismatch
 C:\Users\ericz\Desktop\SortingVisualizer\main.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\ericz\Desktop\SortingVisualizer\InsertionSort.cpp(40,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ericz\Desktop\SortingVisualizer\InsertionSort.cpp(45,21): warning C4018: '<': signed/unsigned mismatch
 C:\Users\ericz\Desktop\SortingVisualizer\main.cpp(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\ericz\Desktop\SortingVisualizer\SelectionSort.cpp(40,39): warning C4018: '<': signed/unsigned mismatch
-C:\Users\ericz\Desktop\SortingVisualizer\SelectionSort.cpp(42,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ericz\Desktop\SortingVisualizer\SelectionSort.cpp(45,39): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ericz\Desktop\SortingVisualizer\SelectionSort.cpp(47,31): warning C4018: '<': signed/unsigned mismatch
 C:\Users\ericz\Desktop\SortingVisualizer\main.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 C:\Users\ericz\Desktop\SortingVisualizer\main.cpp(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\ericz\Desktop\SortingVisualizer\BinaryInsertion.cpp(57,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ericz\Desktop\SortingVisualizer\BinaryInsertion.cpp(62,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ericz\Desktop\SortingVisualizer\main.cpp(8,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   BubbleSort.cpp
-C:\Users\ericz\Desktop\SortingVisualizer\BubbleSort.cpp(41,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\ericz\Desktop\SortingVisualizer\BubbleSort.cpp(42,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ericz\Desktop\SortingVisualizer\BubbleSort.cpp(46,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ericz\Desktop\SortingVisualizer\BubbleSort.cpp(47,22): warning C4018: '<': signed/unsigned mismatch
   MergeSort.cpp
+  QuickSort.cpp
   SelectionSort.cpp
-C:\Users\ericz\Desktop\SortingVisualizer\SelectionSort.cpp(40,39): warning C4018: '<': signed/unsigned mismatch
-C:\Users\ericz\Desktop\SortingVisualizer\SelectionSort.cpp(42,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ericz\Desktop\SortingVisualizer\SelectionSort.cpp(45,39): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ericz\Desktop\SortingVisualizer\SelectionSort.cpp(47,31): warning C4018: '<': signed/unsigned mismatch
   Generating code
   Previous IPDB not found, fall back to full compilation.
-  All 211 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  All 253 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
   SortingVisualizer.vcxproj -> C:\Users\ericz\Desktop\SortingVisualizer\Release\SortingVisualizer.exe

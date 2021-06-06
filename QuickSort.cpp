@@ -1,19 +1,19 @@
 #include <Windows.h>
 #include <GL\glew.h>
-#include <time.h>
 #include <GL\freeglut.h>
+#include <time.h>
 #include <vector>
 #include <string>
 
-
-class BinaryInsertionSort {
+class QuickSort {
 private:
 	std::vector<int> arr = {};
 	time_t begin = 0;
 	long long exchange = 0;
 	int LOAD;
 public:
-	BinaryInsertionSort(std::vector<int> vec, int load) {
+
+	QuickSort(std::vector<int> vec, int load) {
 		arr = vec;
 		LOAD = load;
 	}
@@ -41,36 +41,38 @@ public:
 		Sleep(1);
 	}
 
-	int findSpot(int current){
-		if (arr[current] >= arr[current - 1]) return -1;
-		int left = 0, right = current - 1;
-		int mid = 0;
-		while (left < right) {
-			mid = (left + right) / 2;
-			if (arr[mid] > arr[current]) {
-				right = mid;
-			}
-			else {
-				left = mid + 1;
-			}
+	int partition(int left, int right) {
+		int i = left, j = right;
+		int pivot = arr[i];
+		while (i < j) {
+			while (i < j && arr[j] >= pivot)    j--;
+			if (i >= j)  break;
+			std::swap(arr[i], arr[j]);
+			++exchange;
+			visualize(arr, "Quick Sort");
+			while (i < j && arr[i] <= pivot)    i++;
+			if (i >= j)  break;
+			++exchange;
+			std::swap(arr[i], arr[j]);
+			visualize(arr, "Quick Sort");
 		}
-		return left;
+		arr[i] = pivot;
+		return i;
+	}
+
+	void quicksort(int left, int right) {
+		if (left >= right)   return;
+
+		int part = partition(left, right);
+
+		quicksort(left, part - 1);
+		quicksort(part + 1, right);
+
 	}
 
 	void sort() {
 		begin = clock();
-		for (int i = 1; i < arr.size(); i++) {
-			int rightSpot = findSpot(i);
-
-			if (rightSpot == -1) continue;
-			
-			for (int j = i - 1; j >= rightSpot; j--) {
-				int temp = arr[j];
-				arr[j] = arr[j + 1];
-				arr[j + 1] = temp;
-				++exchange;
-				visualize(arr, "Binary Insertion");
-			}
-		}
+		quicksort(0, arr.size() - 1);
 	}
 };
+

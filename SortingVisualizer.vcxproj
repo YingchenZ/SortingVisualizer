@@ -151,6 +151,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="BubbleSort.cpp" />
     <ClCompile Include="MergeSort.cpp" />
+    <ClCompile Include="QuickSort.cpp" />
     <ClCompile Include="SelectionSort.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

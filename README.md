@@ -2,6 +2,7 @@
 
 ## Algorithm
 I have done 7 sorting algorithm and will add more later.
+|Number|Algorithm|
 |:----:|:----:|
 |1|Bubble Sort|
 |2|Insertion Sort|

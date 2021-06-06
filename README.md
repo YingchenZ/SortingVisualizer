@@ -1,7 +1,7 @@
 # SortingVisualizer
 
 ## Motivation
-There are a lot of videos about Sorting Visualizer on YouTube, and I think it is really cool; hence, I started this project. This project is quite easy but still giving me a chance to review some classic sorting algorithms.
+There are a lot of videos about Sorting Visualizer on YouTube, and I think they all look really cool; hence, I started this project. This project is quite easy but still giving me a chance to review some classic sorting algorithms.
 
 ## Dependencies
 For this project, I use OpenGL to make algorithms visualizable.

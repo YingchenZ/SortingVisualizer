@@ -6,6 +6,7 @@
 #include "HeapSort.cpp";
 #include "BinaryInsertion.cpp"
 #include "QuickSort.cpp";
+#include "RadixSort.cpp";
 
 #define LOAD 1500
 #define WIDTH 1350
@@ -14,7 +15,7 @@
 int window;
 
 std::vector<int> generateArray(int load) {
-	srand((unsigned)time(0));
+	srand((unsigned)time(nullptr));
 	std::vector<int> arr = {};
 	for (int i = 0; i < load; i++) {
 		arr.push_back(rand() % (HEIGHT - 100));
@@ -86,6 +87,15 @@ void renderHeap() {
 	glutDestroyWindow(window);
 }
 
+void renderRadix() {
+	std::vector<int> newArray = generateArray(LOAD);
+
+	RadixSort* heap = new RadixSort(newArray, LOAD);
+	heap->sort();
+	Sleep(1000);
+	glutDestroyWindow(window);
+}
+
 void createWindow(int option) {
 
 	// Set the window size
@@ -121,13 +131,16 @@ void createWindow(int option) {
 	else if (option == 7) {
 		glutDisplayFunc(renderHeap);
 	}
+	else if (option == 8) {
+		glutDisplayFunc(renderRadix);
+	}
 	else {
 		return;
 	}
 }
 
 void menu() {
-	std::cout << "0.\tQuit" << std::endl;
+	std::cout << "\n0.\tQuit" << std::endl;
 	std::cout << "1.\tBubble Sort" << std::endl;
 	std::cout << "2.\tInsertion Sort" << std::endl;
 	std::cout << "3.\tBinary Insertion Sort" << std::endl;
@@ -135,6 +148,7 @@ void menu() {
 	std::cout << "5.\tQuick Sort" << std::endl;
 	std::cout << "6.\tMerge Sort" << std::endl;
 	std::cout << "7.\tHeap Sort" << std::endl;
+	std::cout << "8.\tRadix Sort" << std::endl;
 }
 
 void start(int argc, char* argv[]) {
